@@ -7,4 +7,5 @@ SRC_URI:append:buv-runbmc = " \
   file://0007-Ampere-Altra-MAX-SSIF-IPMI-driver.patch \
   file://0008-driver-misc-seven-segment-display-gpio-driver.patch \
   "
+SRC_URI:append:buv-runbmc = " file://disable_CONFIG_MTD_PARTITIONED_MASTER.cfg" 
 
