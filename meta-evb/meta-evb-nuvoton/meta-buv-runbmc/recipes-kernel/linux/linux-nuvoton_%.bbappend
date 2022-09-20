@@ -8,4 +8,4 @@ SRC_URI:append:buv-runbmc = " \
   file://0008-driver-misc-seven-segment-display-gpio-driver.patch \
   "
 SRC_URI:append:buv-runbmc = " file://disable_CONFIG_MTD_PARTITIONED_MASTER.cfg" 
-
+SRC_URI:append:buv-runbmc = " file://disable_CONFIG_SYSFS_DEPRECATED.cfg"
